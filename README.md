@@ -1,3 +1,2 @@
-# Final_Work
+# Final assignments
 
-compite command: gcc -fno-stack-protector -Wl,--relax -Wl,--section-alignment=4096 -o vuln.exe main.c
