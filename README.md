@@ -1,6 +1,6 @@
 # 基于Python的开源云原生Web应用级防火墙(WAF)实现
 
-Author: ZHENG Hai-Lin, Ich1ka_chan(FAN CZ), ZHAN Yi-Xuan, ZHONG Jun-Hao, Huang Yao-Kun
+Author: *ZHENG Hai-Lin*, *Ich1ka_chan(FAN CZ)*, *ZHAN Yi-Xuan*, *ZHONG Jun-Hao*, *Huang Yao-Kun*
 
 ## Introduction：
 随着互联网的迅猛发展，Web应用的安全问题日益凸显。Web应用级防火墙（Web Application Firewall）作为一种专门用于保护Web应用的安全工具，已经成为企业网络安全架构中不可或缺的一部分。本项目将详细介绍如何基于Python开发一款开源的云原生Web应用防火墙，并提供详细的实现过程。
