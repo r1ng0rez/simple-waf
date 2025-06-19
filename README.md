@@ -33,3 +33,7 @@ Author: *ZHENG Hai-Lin*, *Ich1ka_chan(FAN CZ)*, *ZHAN Yi-Xuan*, *ZHONG Jun-Hao*,
 - 攻击模拟与防护效果验证
 - 性能优化与调优
 - 总结与展望
+
+## 一、WAF基础知识
+**Descrption:**
+WAF（Web Application Firewall）即Web应用防火墙，是一种专门保护`Web`应用程序的安全设备或软件。它通过监测、过滤和阻止来自 Web 应用层的恶意流量（如 SQL 注入、XSS 攻击、CSRF 等），为网站和 Web 服务提供针对性的安全防护。
