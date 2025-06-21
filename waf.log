@@ -1,0 +1,31 @@
+2025-06-21 12:05:14,181 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-06-21 12:05:14,181 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 12:05:14,184 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 12:05:14,448 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 12:05:14,450 - werkzeug - INFO -  * Debugger PIN: 106-436-443
+2025-06-21 12:15:16,125 - werkzeug - INFO -  * Detected change in 'D:\\Projects\\simple-waf\\main.py', reloading
+2025-06-21 12:15:16,186 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 12:22:33,459 - INFO - Starting WAF server...
+2025-06-21 12:22:34,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-06-21 12:22:34,327 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 12:25:09,515 - INFO - Starting WAF server...
+2025-06-21 12:25:10,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+2025-06-21 12:25:10,417 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 12:32:01,288 - INFO - 192.168.1.10 - - [21/Jun/2025 12:32:01] "GET /waf/admin/logs HTTP/1.1" 200 -
+2025-06-21 12:32:05,752 - ERROR - Proxy error: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /favicon.ico (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012A28564E80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-06-21 12:32:05,754 - INFO - 192.168.1.10 - - [21/Jun/2025 12:32:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 502 -
+2025-06-21 12:35:36,337 - WARNING - Blocked attack: IP=192.168.1.10 RuleID=1 Path=pikachu/vul/sqli/sqli_str.php
+2025-06-21 12:35:36,337 - INFO - 192.168.1.10 - - [21/Jun/2025 12:35:36] "[31m[1mGET /pikachu/vul/sqli/sqli_str.php?name='%20OR%201=1-- HTTP/1.1[0m" 403 -
+2025-06-21 12:35:44,583 - WARNING - Blocked attack: IP=192.168.1.10 RuleID=1 Path=pikachu/vul/sqli/sqli_str.php
+2025-06-21 12:35:44,584 - INFO - 192.168.1.10 - - [21/Jun/2025 12:35:44] "[31m[1mGET /pikachu/vul/sqli/sqli_str.php?name='%20OR%201=1-- HTTP/1.1[0m" 403 -
+2025-06-21 12:38:03,328 - WARNING - Blocked attack: IP=192.168.1.10 RuleID=2 Path=pikachu/vul/xss/xss_reflected_get.php
+2025-06-21 12:38:03,329 - INFO - 192.168.1.10 - - [21/Jun/2025 12:38:03] "[31m[1mGET /pikachu/vul/xss/xss_reflected_get.php?message=<script>alert('xss')</script>&submit=submit HTTP/1.1[0m" 403 -
